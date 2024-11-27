@@ -9,7 +9,7 @@ const roboto = Roboto( {
 
 export default function NavBar() {
     return (
-       <header className={`${roboto.className} bg-blue-900 text-sm flex py-3 px-5 justify-between items-center sticky top-0 z-20`}>
+       <header className={`${roboto.className} bg-indigo-950 text-sm flex py-3 px-5 justify-between items-center sticky top-0 z-20`}>
             <Link href="/" >
                 <Image src="/favicon.png" width={55} height={55} alt="Logo" />
             </Link>
