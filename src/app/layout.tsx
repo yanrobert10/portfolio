@@ -2,7 +2,7 @@
 import NavBar from './components/navBar/Layout'
 import './globals.css'
 import { Inter } from 'next/font/google'
-
+import { JetBrains_Mono } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,6 +11,11 @@ export const metadata = {
   description: 'Portfolio feito com a Framework NextJs 13',
   
 }
+
+const jetBrains_Mono = JetBrains_Mono({
+  subsets: ['latin'],
+  weight: '400',
+})
 
 export default function RootLayout({
   children,
@@ -23,7 +28,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.png"/>
       </head>
 
-      <body className={inter.className}>
+      <body className={jetBrains_Mono.className}>
         <NavBar/>
 
         <main>
