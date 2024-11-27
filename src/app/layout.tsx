@@ -1,4 +1,5 @@
 
+import NavBar from './components/navBar/Layout'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -21,7 +22,16 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.png"/>
       </head>
-      <body className={inter.className}>{children}</body>
+
+      <body className={inter.className}>
+        <NavBar/>
+
+        <main>
+          {children}
+        </main>
+        
+      </body>
+
     </html>
   )
 }
