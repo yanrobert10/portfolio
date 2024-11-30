@@ -28,7 +28,7 @@ export default function AboutMe() {
                 <div>
                     <h1 className="text-3xl sm:text-7xl xl:leading-[5rem]">
                         Prazer, sou&nbsp;
-                        <span className="font-bold">Yan Robert</span>
+                        <strong className="font-bold">Yan Robert</strong>
                     </h1>
                 </div>
 
@@ -57,7 +57,7 @@ export default function AboutMe() {
                     className="rounded-full"
                 />
                 <p className="p-4 w-fit text-base leading-tight bg-y-blue-500 rounded-xl text-black absolute -bottom-[0.75rem]">
-                    <span className="text-4xl">1+</span>
+                    <span className="text-4xl font-bold">1+</span>
                     <br />
                     anos de experiência
                 </p>
