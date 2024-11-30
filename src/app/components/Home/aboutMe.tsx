@@ -11,6 +11,7 @@ export default function AboutMe() {
     return (
         <main className="
             flex 
+            xl:h-screen
             flex-wrap-reverse 
             justify-center
             items-center 
